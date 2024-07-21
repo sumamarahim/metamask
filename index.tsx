@@ -55,8 +55,8 @@ const Index: NextPage = () => {
       
       const accounts: string[] = await ethereum.request({method: "eth_requestAccounts"});
 
-      //console.log("In ConnectWeb3: After")
-      //provider = new ethers.providers.Web3Provider((window as any).ethereum);
+      console.log("In ConnectWeb3: After")
+      provider = new ethers.providers.Web3Provider((window as any).ethereum);
 
 
 
